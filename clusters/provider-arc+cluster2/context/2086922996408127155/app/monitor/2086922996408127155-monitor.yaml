@@ -1,0 +1,14 @@
+apiVersion: k8splugin.io/v1alpha1
+kind: ResourceBundleState
+metadata:
+  creationTimestamp: null
+  labels:
+    emco/deployment-id: 2086922996408127155-monitor
+  name: 2086922996408127155-monitor
+spec:
+  selector:
+    matchLabels:
+      emco/deployment-id: 2086922996408127155-monitor
+status:
+  ready: false
+  resourceCount: 0
